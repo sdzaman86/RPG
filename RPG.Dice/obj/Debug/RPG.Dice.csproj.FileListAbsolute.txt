@@ -1,0 +1,4 @@
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\bin\Debug\RPG.Dice.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\bin\Debug\RPG.Dice.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.Dice.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.Dice.pdb

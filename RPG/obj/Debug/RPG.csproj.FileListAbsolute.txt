@@ -1,0 +1,6 @@
+C:\Users\Danial\Documents\GitHub\RPG\RPG\bin\Debug\RPG.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG\bin\Debug\RPG.pdb
+C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.dll
+C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.pdb

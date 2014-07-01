@@ -1,0 +1,11 @@
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.Character.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.Character.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.General.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.General.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.Dice.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\bin\Debug\RPG.Dice.pdb
+C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.dll
+C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\obj\Debug\RPG.Character.csprojResolveAssemblyReference.cache
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\obj\Debug\RPG.Character.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Character\obj\Debug\RPG.Character.pdb
