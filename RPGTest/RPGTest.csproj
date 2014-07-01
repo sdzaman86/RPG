@@ -51,13 +51,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgeCalculatorTest.cs" />
     <Compile Include="DiceTest.cs" />
     <Compile Include="DieTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Shadow Include="Test References\RPG.accessor" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RPG.Character\RPG.Character.csproj">

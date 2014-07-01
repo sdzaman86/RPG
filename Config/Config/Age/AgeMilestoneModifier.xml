@@ -1,28 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <AgeMilestoneModifer>
-  <Adulthood></Adulthood>
-  <MiddleAge>
-    <Strength>-1</Strength>
-    <Dexterity>-1</Dexterity>
-    <Constitution>-1</Constitution>
-    <Intelligence>1</Intelligence>
-    <Wisdon>1</Wisdon>
-    <Charisma>1</Charisma>
-  </MiddleAge>
-  <Old>
-    <Strength>-2</Strength>
-    <Dexterity>-2</Dexterity>
-    <Constitution>-2</Constitution>
-    <Intelligence>1</Intelligence>
-    <Wisdom>1</Wisdom>
-    <Charisma>1</Charisma>
-  </Old>
-  <Venerable>
-    <Strength>-3</Strength>
-    <Dexterity>-3</Dexterity>
-    <Constitution>-3</Constitution>
-    <Intelligence>1</Intelligence>
-    <Wisdom>1</Wisdom>
-    <Charisma>1</Charisma>
-  </Venerable>
+  <Adulthood Strength="0" Dexterity="0" Constitution="0" Intelligence="0" Wisdom="0" Charisma="0"></Adulthood>
+  <MiddleAge Strength="-1" Dexterity="-1" Constitution="-1" Intelligence="1" Wisdom="1" Charisma="1"></MiddleAge>
+  <Old Strength="-2" Dexterity="-2" Constitution="-2" Intelligence="1" Wisdom="1" Charisma="1"></Old>
+  <Venerable Strength="-3" Dexterity="-3" Constitution="-3" Intelligence="1" Wisdom="1" Charisma="1"></Venerable>
 </AgeMilestoneModifer>

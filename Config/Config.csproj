@@ -40,14 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\Age\Human.cs">
-      <DependentUpon>Human.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Config\Age\Human.Designer.cs">
-      <DependentUpon>Human.xsd</DependentUpon>
+    <Compile Include="Config\Race\RaceSettings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>RaceSettings.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,21 +51,42 @@
     <Content Include="Config\Age\AgeMilestoneModifier.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Config\Age\Human.xml">
+    <Content Include="Config\Race\Halfling.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\HalfOrc.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\HalfElf.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\Gnome.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\Elf.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\RaceSettings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\Dwarf.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Race\Human.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Config\Age\Human.xsc">
-      <DependentUpon>Human.xsd</DependentUpon>
+    <None Include="Config\Race\RaceSettings.xsc">
+      <DependentUpon>RaceSettings.xsd</DependentUpon>
     </None>
-    <None Include="Config\Age\Human.xsd">
+    <None Include="Config\Race\RaceSettings.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Human.Designer.cs</LastGenOutput>
+      <LastGenOutput>RaceSettings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Config\Age\Human.xss">
-      <DependentUpon>Human.xsd</DependentUpon>
+    <None Include="Config\Race\RaceSettings.xss">
+      <DependentUpon>RaceSettings.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

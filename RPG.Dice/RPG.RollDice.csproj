@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dice.cs" />
+    <Compile Include="DiceParser.cs" />
     <Compile Include="Die.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

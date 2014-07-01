@@ -1,6 +1,9 @@
 C:\Users\Danial\Documents\GitHub\RPG\RPG\bin\Debug\RPG.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPG\bin\Debug\RPG.pdb
-C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.dll
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.pdb
-C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.pdb
+C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.exe
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.Form1.resources
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.csproj.GenerateResource.Cache
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.exe
+C:\Users\Danial\Documents\GitHub\RPG\RPG\obj\Debug\RPG.csprojResolveAssemblyReference.cache

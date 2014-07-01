@@ -17,6 +17,8 @@ namespace RPG.Character
         private ClassEnum _Class;
         private AlignmentEnum _Alignment;
         private int _Age;
+        private int _Height;
+        private int _Weight;
 
         public int Strength
         {
@@ -135,6 +137,30 @@ namespace RPG.Character
             set
             {
                 this._Age = value;
+            }
+        }
+
+        public int Height
+        {
+            get
+            {
+                return this._Height;
+            }
+            set
+            {
+                this._Height = value;
+            }
+        }
+
+        public int Weight
+        {
+            get
+            {
+                return this._Weight;
+            }
+            set
+            {
+                this._Weight = value;
             }
         }
     }

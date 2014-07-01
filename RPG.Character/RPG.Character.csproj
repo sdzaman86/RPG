@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractCharacter.cs" />
-    <Compile Include="Age\AgeCalculator.cs" />
+    <Compile Include="CharacterCalculator.cs" />
     <Compile Include="Age\AgeMilestoneConst.cs" />
     <Compile Include="CharacterFactory.cs" />
     <Compile Include="Human.cs" />
@@ -53,6 +53,10 @@
     <Compile Include="RaceEnum.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Config\Config.csproj">
+      <Project>{FD5B733C-1C16-4F39-BD0B-12F59370B3DA}</Project>
+      <Name>Config</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RPG.Dice\RPG.RollDice.csproj">
       <Project>{3F33FCD7-309A-4836-8CDE-31C42613E8F6}</Project>
       <Name>RPG.RollDice</Name>

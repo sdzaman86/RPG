@@ -27,5 +27,10 @@ namespace RPG.Weapons
             dice = new Dice(this.NumDice(), this.MaxDamage());
             return dice.Roll();
         }
+
+        public int Value()
+        {
+            return 0;
+        }
     }
 }

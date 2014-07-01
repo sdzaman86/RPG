@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RaceSettings" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="RaceSettings" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Age">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AgeMilestones" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Adulthood" type="xs:string" minOccurs="0" />
+                    <xs:element name="MiddleAge" type="xs:string" minOccurs="0" />
+                    <xs:element name="Old" type="xs:string" minOccurs="0" />
+                    <xs:element name="Venerable" type="xs:string" minOccurs="0" />
+                    <xs:element name="MaximumAgeModifier" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ClassModifier" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="ClassType" type="xs:string" />
+                  <xs:attribute name="Modifier" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Gender">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Height" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Base" type="xs:string" />
+                  <xs:attribute name="Modifier" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Weight" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Base" type="xs:string" />
+                  <xs:attribute name="Modifier" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Gender" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<RaceSettings>
+  <Age>
+    <AgeMilestones>
+      <Adulthood>40</Adulthood>
+      <MiddleAge>100</MiddleAge>
+      <Old>150</Old>
+      <Venerable>200</Venerable>
+      <MaximumAgeModifier>3d100</MaximumAgeModifier>
+    </AgeMilestones>
+    <ClassModifier ClassType="Barbarian" Modifier="4d6"></ClassModifier>
+    <ClassModifier ClassType="Rogue" Modifier="4d6"></ClassModifier>
+    <ClassModifier ClassType="Sorcerer" Modifier="4d6"></ClassModifier>
+    <ClassModifier ClassType="Bard" Modifier="6d6"></ClassModifier>
+    <ClassModifier ClassType="Fighter" Modifier="6d6"></ClassModifier>
+    <ClassModifier ClassType="Paladin" Modifier="6d6"></ClassModifier>
+    <ClassModifier ClassType="Ranger" Modifier="6d6"></ClassModifier>
+    <ClassModifier ClassType="Cleric" Modifier="9d6"></ClassModifier>
+    <ClassModifier ClassType="Druid" Modifier="9d6"></ClassModifier>
+    <ClassModifier ClassType="Monk" Modifier="9d6"></ClassModifier>
+    <ClassModifier ClassType="Wizard" Modifier="9d6"></ClassModifier>
+  </Age>
+  <Gender Gender="Male">
+    <Height Base="36"  Modifier="2d4"></Height>
+    <Weight Base="40" Modifier="*1"></Weight>
+  </Gender>
+  <Gender Gender="Female">
+    <Height Base="34"  Modifier="2d4"></Height>
+    <Weight Base="35" Modifier="*1"></Weight>
+  </Gender>
+</RaceSettings>

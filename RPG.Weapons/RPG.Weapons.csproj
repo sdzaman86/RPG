@@ -50,6 +50,10 @@
       <Project>{3F33FCD7-309A-4836-8CDE-31C42613E8F6}</Project>
       <Name>RPG.RollDice</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RPG.Equipment\RPG.Equipment.csproj">
+      <Project>{225199C6-32C2-4F32-A365-FA73C5511D5C}</Project>
+      <Name>RPG.Equipment</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

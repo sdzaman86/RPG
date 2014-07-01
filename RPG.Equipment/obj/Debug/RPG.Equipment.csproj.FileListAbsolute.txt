@@ -1,0 +1,4 @@
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Equipment\bin\Debug\RPG.Equipment.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Equipment\bin\Debug\RPG.Equipment.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Equipment\obj\Debug\RPG.Equipment.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Equipment\obj\Debug\RPG.Equipment.pdb
