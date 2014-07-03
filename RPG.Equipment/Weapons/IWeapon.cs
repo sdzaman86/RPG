@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using RPG.Equipment;
 
-namespace RPG.Weapons
+namespace RPG.Equipment.Weapons
 {
     public interface IWeapon : IItem
     {
-        int NumDice();
-        int MaxDamage();
+        string Critical();
+        int CriticalMinimumRoll();
+        string Damage();
         int Attack();
+        WeaponTypeEnum WeaponType();
     }
 }

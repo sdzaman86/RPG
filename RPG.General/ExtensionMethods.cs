@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace RPG.General
 {
@@ -29,6 +31,13 @@ namespace RPG.General
             }
 
             return deserializedObj;
+        }
+
+        public static void Set<T, T2>(this T entity, string propertyName, T2 value)
+        {
+            Type entityType = entity.GetType();
+            PropertyInfo changeProperty = entityType.GetProperty(propertyName);
+            changeProperty.SetValue(entity, value, null);
         }
     }
 }

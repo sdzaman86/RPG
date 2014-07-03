@@ -4,3 +4,7 @@ C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.pdb
 C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.RollDice.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.RollDice.pdb
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.RollDice.pdb
+C:\Users\DT\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.RollDice.dll
+C:\Users\DT\Documents\GitHub\RPG\RPG.Dice\obj\Debug\RPG.RollDice.pdb

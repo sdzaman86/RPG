@@ -13,3 +13,16 @@ C:\Users\Danial\Documents\GitHub\RPG\Assemblies\Config\Race\HalfOrc.xml
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\Config\Race\HalfElf.xml
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\Config\Race\Gnome.xml
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\Config\Race\Elf.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Age\AgeMilestoneModifier.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\Halfling.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\HalfOrc.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\HalfElf.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\Gnome.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\Elf.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\RaceSettings.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\Dwarf.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config\Race\Human.xml
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config.dll
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\Config.pdb
+C:\Users\DT\Documents\GitHub\RPG\Config\obj\Debug\Config.dll
+C:\Users\DT\Documents\GitHub\RPG\Config\obj\Debug\Config.pdb

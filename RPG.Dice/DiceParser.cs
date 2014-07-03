@@ -39,20 +39,20 @@ namespace RPG.RollDice
         /// A string breaking down and summing the roll. Example Output: 
         /// (2d8+9)+(3d6+1)-10 = 7+4+9+5+1+2+1-10 = 20+9-10 = 19 
 
-        public static int Roll(string diceString)
+        public static int Roll(string diceString, Random seedRandom = null)
         {
             StringBuilder finalResultBuilder = new StringBuilder();
             string tempString = "";
-            int intermediateTotal = 0;
+            //int intermediateTotal = 0;
             ArrayList sums = new ArrayList();
             ArrayList items = new ArrayList();
             ArrayList dice = new ArrayList();
             int totals = 0;
             bool collate = false;
-            bool positive = true;
+            //bool positive = true;
             string validChars = "1234567890d";
             char[] diceCharArray = diceString.ToLower().ToCharArray();
-            string op = "+";
+            //string op = "+";
 
             #region ParseString
             for (int i = 0; i < diceString.Length; i++)
@@ -68,7 +68,7 @@ namespace RPG.RollDice
                                 break;
                             }
 
-                            int result =  calcSubStringRoll(tempString);
+                            int result =  calcSubStringRoll(tempString, seedRandom);
                             if (!collate && finalResultBuilder.Length>0)
                             {
                                 finalResultBuilder.Append("+");
@@ -92,7 +92,7 @@ namespace RPG.RollDice
                                 break;
                             }
 
-                            int result = calcSubStringRoll(tempString);
+                            int result = calcSubStringRoll(tempString, seedRandom);
                             if (!collate && finalResultBuilder.Length > 0)
                             {
                                 finalResultBuilder.Append("-");
@@ -115,7 +115,7 @@ namespace RPG.RollDice
                                 finalResultBuilder.Append("*");
                                 break;
                             }
-                            int result = calcSubStringRoll(tempString);
+                            int result = calcSubStringRoll(tempString, seedRandom);
 
                             if (!collate && finalResultBuilder.Length > 0)
                             {
@@ -140,7 +140,7 @@ namespace RPG.RollDice
                     #region )
                     case ')':
                         collate = false;
-                        int res = calcSubStringRoll(tempString);
+                        int res = calcSubStringRoll(tempString, seedRandom);
                         finalResultBuilder.Append(res.ToString());
                         finalResultBuilder.Append(")");
                         tempString = "";
@@ -159,7 +159,7 @@ namespace RPG.RollDice
             // And once more for the remaining text 
             if (tempString.Length > 0)
             {
-                int res2 = calcSubStringRoll(tempString);
+                int res2 = calcSubStringRoll(tempString, seedRandom);
                 finalResultBuilder.Append(res2.ToString());
             }
             #endregion
@@ -341,7 +341,7 @@ namespace RPG.RollDice
         /// A simple die roll string, such as 3d6. Nothing more. 
         /// Returns an ArrayList of int's containing the various die 
         /// rolls as passed in as a parameter. 
-        public static int calcSubStringRoll(string s)
+        public static int calcSubStringRoll(string s, Random seedRandom)
         {
             int x, d;
             int roll;
@@ -353,7 +353,7 @@ namespace RPG.RollDice
                 // therefore works properly with the code I hacked from java above. 
                 //for (int i = 0; i < x; i++)
                     //dice.Add(Dice2.Roll(1, d, 0));
-                roll = new Dice(x, d).Roll();
+                roll = new Dice(x, d, seedRandom).Roll();
             }
             else
                 roll = Convert.ToInt32(s);

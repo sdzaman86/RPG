@@ -4,3 +4,7 @@ C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.dll
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.pdb
 C:\Users\Danial\Documents\GitHub\RPG\RPG.General\obj\Debug\RPG.General.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPG.General\obj\Debug\RPG.General.pdb
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.General.dll
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.General.pdb
+C:\Users\DT\Documents\GitHub\RPG\RPG.General\obj\Debug\RPG.General.dll
+C:\Users\DT\Documents\GitHub\RPG\RPG.General\obj\Debug\RPG.General.pdb

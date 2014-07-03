@@ -17,3 +17,8 @@ C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPGTest.pdb
 C:\Users\Danial\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.csprojResolveAssemblyReference.cache
 C:\Users\Danial\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.pdb
+C:\Users\DT\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.csprojResolveAssemblyReference.cache
+C:\Users\DT\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.pdb
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPGTest.dll
+C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPGTest.pdb
+C:\Users\DT\Documents\GitHub\RPG\RPGTest\obj\Debug\RPGTest.dll

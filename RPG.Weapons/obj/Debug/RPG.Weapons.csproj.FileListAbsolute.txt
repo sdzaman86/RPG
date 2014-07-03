@@ -1,9 +1,0 @@
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\bin\Debug\RPG.Weapons.dll
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\bin\Debug\RPG.Weapons.pdb
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\bin\Debug\RPG.Dice.dll
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\bin\Debug\RPG.Dice.pdb
-C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Weapons.dll
-C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Weapons.pdb
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\obj\Debug\RPG.Weapons.csprojResolveAssemblyReference.cache
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\obj\Debug\RPG.Weapons.dll
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Weapons\obj\Debug\RPG.Weapons.pdb

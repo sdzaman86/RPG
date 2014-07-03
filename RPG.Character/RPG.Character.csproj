@@ -42,15 +42,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractCharacter.cs" />
+    <Compile Include="GenderEnum.cs" />
+    <Compile Include="Race\Halfling.cs" />
     <Compile Include="CharacterCalculator.cs" />
     <Compile Include="Age\AgeMilestoneConst.cs" />
     <Compile Include="CharacterFactory.cs" />
-    <Compile Include="Human.cs" />
+    <Compile Include="AbstractMonster.cs" />
+    <Compile Include="Race\HalfOrc.cs" />
+    <Compile Include="Race\HalfElf.cs" />
+    <Compile Include="Race\Gnome.cs" />
+    <Compile Include="Race\Elf.cs" />
+    <Compile Include="Race\Dwarf.cs" />
+    <Compile Include="Race\Human.cs" />
     <Compile Include="AlignmentEnum.cs" />
-    <Compile Include="ClassEnum.cs" />
+    <Compile Include="Class\ClassEnum.cs" />
     <Compile Include="ICharacter.cs" />
+    <Compile Include="LanguageEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RaceEnum.cs" />
+    <Compile Include="Race\RaceEnum.cs" />
+    <Compile Include="SizeEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Config\Config.csproj">

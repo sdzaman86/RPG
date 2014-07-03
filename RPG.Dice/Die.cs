@@ -21,6 +21,12 @@ namespace RPG.RollDice
             this.numSides = sides;
         }
 
+        public Die(int sides, Random seedRandom)
+        {
+            this.numSides = sides;
+            this.randomGenerator = seedRandom;
+        }
+
         public int NumSides()
         {
             return this.numSides;

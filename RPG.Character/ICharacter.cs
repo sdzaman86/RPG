@@ -7,5 +7,8 @@ namespace RPG.Character
 {
     public interface ICharacter
     {
+        SizeEnum Size();
+        int Speed();
+        bool SpeaksLanguage(LanguageEnum language);
     }
 }

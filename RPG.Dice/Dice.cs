@@ -28,6 +28,15 @@ namespace RPG.RollDice
             this.numDice = numDice;
         }
 
+        public Dice(int numDice, int numSides, Random seedRandom)
+        {
+            if (seedRandom != null)
+                this.die = new Die(numSides, seedRandom);
+            else
+                this.die = new Die(numSides);
+            this.numDice = numDice;
+        }
+
         public int NumDice()
         {
             return this.numDice;
@@ -35,11 +44,16 @@ namespace RPG.RollDice
 
         public int Roll()
         {
-            int result=0;
+            return this.RollResults().Sum();
+        }
+
+        public List<int> RollResults()
+        {
+            List<int> result = new List<int>();
 
             for (int i = 0; i < this.numDice; i++)
             {
-                result += this.die.Roll();
+                result.Add(this.die.Roll());
             }
 
             return result;

@@ -5,8 +5,9 @@ using System.Text;
 
 namespace RPG.Character
 {
-    public enum ClassEnum
+    public enum GenderEnum
     {
-        None
+        Male,
+        Female
     }
 }

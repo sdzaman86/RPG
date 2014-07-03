@@ -2,25 +2,37 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using RPG.Character.Class;
 
 namespace RPG.Character
 {
     public abstract class AbstractCharacter : ICharacter
     {
-        private int _Strength = 10;
-        private int _Dexterity = 10;
-        private int _Constitution = 10;
-        private int _Intelligence = 10;
-        private int _Wisdom = 10;
-        private int _Charisma = 10;
-        private RaceEnum _Race;
-        private ClassEnum _Class;
-        private AlignmentEnum _Alignment;
-        private int _Age;
-        private int _Height;
-        private int _Weight;
+        protected int _Strength = 8;
+        protected int _Dexterity = 8;
+        protected int _Constitution = 8;
+        protected int _Intelligence = 8;
+        protected int _Wisdom = 8;
+        protected int _Charisma = 8;
+        protected RaceEnum _Race;
+        protected ClassEnum _Class;
+        protected AlignmentEnum _Alignment;
+        protected int _Age;
+        protected int _Height;
+        protected int _Weight;
+        protected List<LanguageEnum> _Languages = new List<LanguageEnum>(){LanguageEnum.Common};
+        protected Dictionary<string, int> _StatModifierDict = new Dictionary<string, int>();
+        protected GenderEnum _Gender;
 
-        protected abstract string Size();
+        public SizeEnum Size()
+        {
+            return SizeEnum.Medium;
+        }
+
+        public int Speed()
+        {
+            return 30;
+        }
 
         public int Strength
         {
@@ -100,10 +112,6 @@ namespace RPG.Character
             {
                 return this._Race;
             }
-            set
-            {
-                this._Race = value;
-            }
         }
 
         public ClassEnum Class
@@ -163,6 +171,48 @@ namespace RPG.Character
             set
             {
                 this._Weight = value;
+            }
+        }
+
+        public List<LanguageEnum> Languages
+        {
+            get
+            {
+                return this._Languages;
+            }
+            set
+            {
+                this._Languages = value;
+            }
+        }
+
+        public bool SpeaksLanguage(LanguageEnum language)
+        {
+            return this._Languages.Any(l => l == language);
+        }
+
+        private int IntelligenceModifier()
+        {
+            return (int)Math.Floor((this.Intelligence - 10.0) / 2.0);
+        }
+
+        public Dictionary<string, int> StatModifierDict
+        {
+            get
+            {
+                return this._StatModifierDict;
+            }
+        }
+
+        public GenderEnum Gender
+        {
+            get
+            {
+                return this._Gender;
+            }
+            set
+            {
+                this._Gender = value;
             }
         }
     }

@@ -63,5 +63,15 @@ namespace RPG.Character
             
             return raceConfig;
         }
+
+        public void RollNewStats()
+        {
+            
+        }
+
+        private int StatRoll()
+        {
+            return DiceParser.Roll("3d6");
+        }
     }
 }

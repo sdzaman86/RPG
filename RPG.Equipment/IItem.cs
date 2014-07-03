@@ -8,5 +8,6 @@ namespace RPG.Equipment
     public interface IItem
     {
         int Value();
+        int Weight();
     }
 }
