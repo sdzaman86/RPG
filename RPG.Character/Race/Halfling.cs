@@ -9,12 +9,11 @@ namespace RPG.Character.Race
 {
     public class Halfling : AbstractCharacter
     {
-        protected List<LanguageEnum> _Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Halfling };
-        protected Dictionary<string, int> _StatModifierDict = new Dictionary<string, int>() { { "Dexterity", 2 }, { "Strength", -2 } };
-
         public Halfling()
         {
             this._Race = RaceEnum.Halfling;
+            this._Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Halfling };
+            this._StatModifierDict = new Dictionary<string, int>() { { "Dexterity", 2 }, { "Strength", -2 } };
         }
 
         public SizeEnum Size()

@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using RPG.Character.Class;
+using RPG.Equipment;
 
 namespace RPG.Character
 {
     public abstract class AbstractCharacter : ICharacter
     {
+        #region Properties
+        #region Stats&Attrs
         protected int _Strength = 8;
         protected int _Dexterity = 8;
         protected int _Constitution = 8;
@@ -23,17 +26,31 @@ namespace RPG.Character
         protected List<LanguageEnum> _Languages = new List<LanguageEnum>(){LanguageEnum.Common};
         protected Dictionary<string, int> _StatModifierDict = new Dictionary<string, int>();
         protected GenderEnum _Gender;
+        #endregion
+        #region Iventory
+        protected IItem _Head;
+        protected IItem _Body;
+        protected IItem _RightArm;
+        protected IHandCombatItem _RightHand;
+        protected IItem _LeftArm;
+        protected IHandCombatItem _LeftHand;
+        protected IItem _Legs;
+        protected IItem _Feet;
+        #endregion
+        #endregion
 
-        public SizeEnum Size()
+        #region Attributes
+        public virtual SizeEnum Size()
         {
             return SizeEnum.Medium;
         }
 
-        public int Speed()
+        public virtual int Speed()
         {
             return 30;
         }
 
+        #region Stats
         public int Strength
         {
             get
@@ -105,6 +122,7 @@ namespace RPG.Character
                 this._Charisma = value;
             }
         }
+        #endregion
 
         public RaceEnum Race
         {
@@ -174,7 +192,7 @@ namespace RPG.Character
             }
         }
 
-        public List<LanguageEnum> Languages
+        public virtual List<LanguageEnum> Languages
         {
             get
             {
@@ -215,5 +233,104 @@ namespace RPG.Character
                 this._Gender = value;
             }
         }
+        #endregion
+
+        #region Inventory
+        public IItem Head
+        {
+            get
+            {
+                return this._Head;
+            }
+            set
+            {
+                this._Head = value;
+            }
+        }
+
+        public IItem Body
+        {
+            get
+            {
+                return this._Body;
+            }
+            set
+            {
+                this._Body = value;
+            }
+        }
+
+        public IItem RightArm
+        {
+            get
+            {
+                return this._RightArm;
+            }
+            set
+            {
+                this._RightArm = value;
+            }
+        }
+
+        public IHandCombatItem RightHand
+        {
+            get
+            {
+                return this._RightHand;
+            }
+            set
+            {
+                this._RightHand = value;
+            }
+        }
+
+        public IItem LeftArm
+        {
+            get
+            {
+                return this._LeftArm;
+            }
+            set
+            {
+                this._LeftArm = value;
+            }
+        }
+
+        public IHandCombatItem LeftHand
+        {
+            get
+            {
+                return this._LeftHand;
+            }
+            set
+            {
+                this._LeftHand = value;
+            }
+        }
+
+        public IItem Legs
+        {
+            get
+            {
+                return this._Legs;
+            }
+            set
+            {
+                this._Legs = value;
+            }
+        }
+
+        public IItem Feet
+        {
+            get
+            {
+                return this._Feet;
+            }
+            set
+            {
+                this._Feet = value;
+            }
+        }
+        #endregion
     }
 }

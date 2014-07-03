@@ -8,12 +8,11 @@ namespace RPG.Character.Race
 {
     public class Gnome : AbstractCharacter
     {
-        protected List<LanguageEnum> _Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Gnome };
-        protected Dictionary<string, int> _StatModifierDict = new Dictionary<string, int>() { { "Constitution", 2 }, { "Strength", -2 } };
-
         public Gnome()
         {
-            this._Race = RaceEnum.Gnome;            
+            this._Race = RaceEnum.Gnome;
+            this._Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Gnome };
+            this._StatModifierDict = new Dictionary<string, int>() { { "Constitution", 2 }, { "Strength", -2 } };
         }
 
         public SizeEnum Size()

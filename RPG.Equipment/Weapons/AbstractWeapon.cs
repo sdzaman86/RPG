@@ -9,7 +9,6 @@ namespace RPG.Equipment.Weapons
     public abstract class AbstractWeapon : IWeapon
     {
         private Random randomSeed = new Random();
-        private Dice dice;
 
         public abstract string Damage();
         public abstract WeaponTypeEnum WeaponType();
@@ -20,19 +19,24 @@ namespace RPG.Equipment.Weapons
             return DiceParser.Roll(this.Damage(), randomSeed);
         }
 
-        public int Value()
+        public virtual int Value()
         {
             return 0;
         }
 
-        public string Critical()
+        public virtual string Critical()
         {
             return "*1";
         }
 
-        public int CriticalMinimumRoll()
+        public virtual int CriticalMinimumRoll()
         {
             return 20;
+        }
+
+        public virtual bool IsTwoHanded()
+        {
+            return false;
         }
     }
 }

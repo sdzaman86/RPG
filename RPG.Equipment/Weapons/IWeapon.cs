@@ -6,7 +6,7 @@ using RPG.Equipment;
 
 namespace RPG.Equipment.Weapons
 {
-    public interface IWeapon : IItem
+    public interface IWeapon : IHandCombatItem
     {
         string Critical();
         int CriticalMinimumRoll();

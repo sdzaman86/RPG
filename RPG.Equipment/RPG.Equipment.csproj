@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHandCombatItem.cs" />
     <Compile Include="IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Weapons\AbstractWeapon.cs" />
@@ -52,6 +53,11 @@
       <Project>{3F33FCD7-309A-4836-8CDE-31C42613E8F6}</Project>
       <Name>RPG.RollDice</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Armor\Armor\" />
+    <Folder Include="Armor\Helmet\" />
+    <Folder Include="Armor\Shield\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

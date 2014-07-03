@@ -8,12 +8,11 @@ namespace RPG.Character.Race
 {
     public class Dwarf : AbstractCharacter
     {
-        protected List<LanguageEnum> _Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Dwarven };
-        protected Dictionary<string, int> _StatModifierDict = new Dictionary<string, int>() { { "Constitution", 2 }, { "Charisma", -2 } };
-
         public Dwarf()
         {
             this._Race = RaceEnum.Dwarf;            
+            this._Languages = new List<LanguageEnum>() { LanguageEnum.Common, LanguageEnum.Dwarven };
+            this._StatModifierDict = new Dictionary<string, int>() { { "Constitution", 2 }, { "Charisma", -2 } };
         }
 
         public int Speed()
