@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armor\Shield\IShield.cs" />
     <Compile Include="IHandCombatItem.cs" />
     <Compile Include="IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,9 +56,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Armor\Armor\" />
+    <Folder Include="Armor\Body\" />
+    <Folder Include="Armor\Gloves\" />
     <Folder Include="Armor\Helmet\" />
-    <Folder Include="Armor\Shield\" />
+    <Folder Include="Armor\Pants\" />
+    <Folder Include="Armor\Shoes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
