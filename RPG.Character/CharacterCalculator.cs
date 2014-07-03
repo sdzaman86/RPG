@@ -17,8 +17,8 @@ namespace RPG.Character
         public CharacterCalculator(string race, string gender)
         {
             this._Config = this.GetConfig(race);
-            this._HeightOffset = new DiceParser().Roll(this._Config.Height.First().Modifier);
-            this._WeightOffset = new DiceParser().Roll(this._Config.Weight.First().Modifier);
+            this._HeightOffset = DiceParser.Roll(this._Config.Height.First().Modifier);
+            this._WeightOffset = DiceParser.Roll(this._HeightOffset+this._Config.Weight.First().Modifier);
             this._Gender = gender;
         }
 
@@ -28,14 +28,12 @@ namespace RPG.Character
             string modifier;
 
             modifier = this._Config.ClassModifier.AsEnumerable().Where(x => x.ClassType == classType).First().Modifier;
-            int offset = new DiceParser().Roll(modifier);
-
-            result = Int32.Parse(this._Config.AgeMilestones.AsEnumerable().First().Adulthood) + offset;
+            result = DiceParser.Roll(this._Config.AgeMilestones.AsEnumerable().First().Adulthood + "+" + modifier);
 
             return result;
         }
 
-        public int Height(string race)
+        public int Height()
         {
             int result;
 
@@ -45,7 +43,7 @@ namespace RPG.Character
             return result;
         }
 
-        public int Weight(string race)
+        public int Weight()
         {
             int result;
 

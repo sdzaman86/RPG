@@ -20,6 +20,8 @@ namespace RPG.Character
         private int _Height;
         private int _Weight;
 
+        protected abstract string Size();
+
         public int Strength
         {
             get

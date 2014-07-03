@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b78a02bf-342a-420c-9498-1a9d1e6b278b" name="Danial@DANIAL-ASUS 2014-07-02 14:50:03" runUser="DANIAL-ASUS\Danial" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f4099e50-5f7e-4d66-893f-f079ed6f6c67">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Danial_DANIAL-ASUS 2014-07-02 14_50_03">
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.exe" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-02T14:50:03.3637643-05:00" queuing="2014-07-02T14:50:03.4218016-05:00" start="2014-07-02T14:50:03.4538223-05:00" finish="2014-07-02T14:50:04.2623613-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="9" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RollTest1d1Mul3" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="594f7b09-c534-fbe8-9d4a-1cba099beed5">
+      <Execution id="37a60da0-8d05-45ea-8724-8ac9694e3c54" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Mul3" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="075434e3-e103-d829-5145-c369a2860765">
+      <Execution id="9c11e851-bdfe-423e-b7d7-e05a04f5b30f" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1Add2d1Sub5" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="5d13590b-4d5b-d1a4-86a6-826d43dec9d1">
+      <Execution id="6dc897d1-6644-4a0c-aafa-f25ec06f5489" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1Add2d1Sub5" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="a39910d9-a185-216a-6496-802afb0d62c8">
+      <Execution id="47f64055-4679-4c38-acb2-fc055c099b44" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="d5c306b1-ba41-3ceb-a229-57b2f161b761">
+      <Execution id="14e95f46-5713-4b1e-a424-71fdc7fbe6e5" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1Add2d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="5b87ccaf-29a4-4f95-2684-880ee8365d06">
+      <Execution id="1003d9b1-3f58-46e5-bd42-b788ba1d8a71" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1Add2d1" />
+    </UnitTest>
+    <UnitTest name="RollTest3d1Sub1d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9">
+      <Execution id="a292a53e-23b6-4955-9d51-f040a19a7f1c" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest3d1Sub1d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Mul3" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="07d35cc0-5f84-71b9-c09d-3470390d331a">
+      <Execution id="64f9be69-1fd3-4841-9969-d371b22cf66e" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Mul3" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Add1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="c45b81b6-2679-7675-5083-89585994de9d">
+      <Execution id="bb97c2fc-a4c8-4a6a-9f7a-ae35e5d5595e" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Add1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Sub1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a">
+      <Execution id="7b632d7f-4330-4c2e-ac25-b21b5dc846be" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Sub1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add3d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="df1b4648-1710-c997-2724-7e108ca2e85b">
+      <Execution id="d50595f1-8299-4b51-9b89-4bbb58051227" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add3d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Sub1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="749c9363-176f-3ec8-18aa-70765e5a0b66">
+      <Execution id="505becfb-d901-41b5-8509-f5b83dacbf83" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Sub1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Mul0" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1">
+      <Execution id="073adcdc-89ff-4790-8f72-a12bf4a6f252" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Mul0" />
+    </UnitTest>
+    <UnitTest name="RollTest1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="9f743059-7240-8918-bfad-bd23f3903cee">
+      <Execution id="b25cc85c-5378-4402-a410-3b935edf1e8b" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="075434e3-e103-d829-5145-c369a2860765" executionId="9c11e851-bdfe-423e-b7d7-e05a04f5b30f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07d35cc0-5f84-71b9-c09d-3470390d331a" executionId="64f9be69-1fd3-4841-9969-d371b22cf66e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9" executionId="a292a53e-23b6-4955-9d51-f040a19a7f1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="594f7b09-c534-fbe8-9d4a-1cba099beed5" executionId="37a60da0-8d05-45ea-8724-8ac9694e3c54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b87ccaf-29a4-4f95-2684-880ee8365d06" executionId="1003d9b1-3f58-46e5-bd42-b788ba1d8a71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" executionId="6dc897d1-6644-4a0c-aafa-f25ec06f5489" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="749c9363-176f-3ec8-18aa-70765e5a0b66" executionId="505becfb-d901-41b5-8509-f5b83dacbf83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f743059-7240-8918-bfad-bd23f3903cee" executionId="b25cc85c-5378-4402-a410-3b935edf1e8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a39910d9-a185-216a-6496-802afb0d62c8" executionId="47f64055-4679-4c38-acb2-fc055c099b44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a" executionId="7b632d7f-4330-4c2e-ac25-b21b5dc846be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c45b81b6-2679-7675-5083-89585994de9d" executionId="bb97c2fc-a4c8-4a6a-9f7a-ae35e5d5595e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5c306b1-ba41-3ceb-a229-57b2f161b761" executionId="14e95f46-5713-4b1e-a424-71fdc7fbe6e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df1b4648-1710-c997-2724-7e108ca2e85b" executionId="d50595f1-8299-4b51-9b89-4bbb58051227" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1" executionId="073adcdc-89ff-4790-8f72-a12bf4a6f252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9c11e851-bdfe-423e-b7d7-e05a04f5b30f" testId="075434e3-e103-d829-5145-c369a2860765" testName="RollTest1d1" computerName="DANIAL-ASUS" duration="00:00:00.0488797" startTime="2014-07-02T14:50:03.4588259-05:00" endTime="2014-07-02T14:50:03.8971174-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c11e851-bdfe-423e-b7d7-e05a04f5b30f">
+    </UnitTestResult>
+    <UnitTestResult executionId="64f9be69-1fd3-4841-9969-d371b22cf66e" testId="07d35cc0-5f84-71b9-c09d-3470390d331a" testName="RollTest1d1Add1Mul3" computerName="DANIAL-ASUS" duration="00:00:00.0429414" startTime="2014-07-02T14:50:03.9041231-05:00" endTime="2014-07-02T14:50:03.9591595-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64f9be69-1fd3-4841-9969-d371b22cf66e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest1d1Add1Mul3 threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at RPG.RollDice.DiceParser.ProcessMultDiv(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 243
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 182
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest1d1Add1Mul3() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 171
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a292a53e-23b6-4955-9d51-f040a19a7f1c" testId="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9" testName="RollTest3d1Sub1d1" computerName="DANIAL-ASUS" duration="00:00:00.0017187" startTime="2014-07-02T14:50:03.9621611-05:00" endTime="2014-07-02T14:50:03.9851761-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a292a53e-23b6-4955-9d51-f040a19a7f1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="37a60da0-8d05-45ea-8724-8ac9694e3c54" testId="594f7b09-c534-fbe8-9d4a-1cba099beed5" testName="RollTest1d1Mul3" computerName="DANIAL-ASUS" duration="00:00:00.0021025" startTime="2014-07-02T14:50:03.9891788-05:00" endTime="2014-07-02T14:50:04.0071908-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37a60da0-8d05-45ea-8724-8ac9694e3c54">
+    </UnitTestResult>
+    <UnitTestResult executionId="1003d9b1-3f58-46e5-bd42-b788ba1d8a71" testId="5b87ccaf-29a4-4f95-2684-880ee8365d06" testName="RollTest2d1Mul3d1Add2d1" computerName="DANIAL-ASUS" duration="00:00:00.0063420" startTime="2014-07-02T14:50:04.0121945-05:00" endTime="2014-07-02T14:50:04.0282045-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1003d9b1-3f58-46e5-bd42-b788ba1d8a71">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1 threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at RPG.RollDice.DiceParser.ProcessMultDiv(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 244
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 182
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 212
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6dc897d1-6644-4a0c-aafa-f25ec06f5489" testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" testName="RollTest2d1Mul3d1Add2d1Sub5" computerName="DANIAL-ASUS" duration="00:00:00.0075318" startTime="2014-07-02T14:50:04.0342085-05:00" endTime="2014-07-02T14:50:04.0552235-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dc897d1-6644-4a0c-aafa-f25ec06f5489">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1Sub5 threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at RPG.RollDice.DiceParser.ProcessMultDiv(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 244
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 182
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1Sub5() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 222
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="505becfb-d901-41b5-8509-f5b83dacbf83" testId="749c9363-176f-3ec8-18aa-70765e5a0b66" testName="RollTest1d1Add1Sub1" computerName="DANIAL-ASUS" duration="00:00:00.0184765" startTime="2014-07-02T14:50:04.0622285-05:00" endTime="2014-07-02T14:50:04.0962505-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="505becfb-d901-41b5-8509-f5b83dacbf83">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest1d1Add1Sub1 threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at RPG.RollDice.DiceParser.ProcessAddSub(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 294
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 183
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest1d1Add1Sub1() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b25cc85c-5378-4402-a410-3b935edf1e8b" testId="9f743059-7240-8918-bfad-bd23f3903cee" testName="RollTest1" computerName="DANIAL-ASUS" duration="00:00:00.0029804" startTime="2014-07-02T14:50:04.1012535-05:00" endTime="2014-07-02T14:50:04.1152629-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b25cc85c-5378-4402-a410-3b935edf1e8b">
+    </UnitTestResult>
+    <UnitTestResult executionId="47f64055-4679-4c38-acb2-fc055c099b44" testId="a39910d9-a185-216a-6496-802afb0d62c8" testName="RollTest2d1Mul3d1" computerName="DANIAL-ASUS" duration="00:00:00.0030050" startTime="2014-07-02T14:50:04.1212662-05:00" endTime="2014-07-02T14:50:04.1362772-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47f64055-4679-4c38-acb2-fc055c099b44">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b632d7f-4330-4c2e-ac25-b21b5dc846be" testId="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a" testName="RollTest1d1Sub1" computerName="DANIAL-ASUS" duration="00:00:00.0018514" startTime="2014-07-02T14:50:04.1402799-05:00" endTime="2014-07-02T14:50:04.1552896-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b632d7f-4330-4c2e-ac25-b21b5dc846be">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb97c2fc-a4c8-4a6a-9f7a-ae35e5d5595e" testId="c45b81b6-2679-7675-5083-89585994de9d" testName="RollTest1d1Add1Add1" computerName="DANIAL-ASUS" duration="00:00:00.0063515" startTime="2014-07-02T14:50:04.1582926-05:00" endTime="2014-07-02T14:50:04.1753022-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb97c2fc-a4c8-4a6a-9f7a-ae35e5d5595e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest1d1Add1Add1 threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at RPG.RollDice.DiceParser.ProcessAddSub(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 294
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 183
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest1d1Add1Add1() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 151
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14e95f46-5713-4b1e-a424-71fdc7fbe6e5" testId="d5c306b1-ba41-3ceb-a229-57b2f161b761" testName="RollTest1d1Add1" computerName="DANIAL-ASUS" duration="00:00:00.0030912" startTime="2014-07-02T14:50:04.1823079-05:00" endTime="2014-07-02T14:50:04.1943166-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14e95f46-5713-4b1e-a424-71fdc7fbe6e5">
+    </UnitTestResult>
+    <UnitTestResult executionId="d50595f1-8299-4b51-9b89-4bbb58051227" testId="df1b4648-1710-c997-2724-7e108ca2e85b" testName="RollTest1d1Add3d1" computerName="DANIAL-ASUS" duration="00:00:00.0026013" startTime="2014-07-02T14:50:04.1993189-05:00" endTime="2014-07-02T14:50:04.2153296-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d50595f1-8299-4b51-9b89-4bbb58051227">
+    </UnitTestResult>
+    <UnitTestResult executionId="073adcdc-89ff-4790-8f72-a12bf4a6f252" testId="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1" testName="RollTest1d1Mul0" computerName="DANIAL-ASUS" duration="00:00:00.0003831" startTime="2014-07-02T14:50:04.2213343-05:00" endTime="2014-07-02T14:50:04.2343426-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="073adcdc-89ff-4790-8f72-a12bf4a6f252">
+    </UnitTestResult>
+  </Results>
+</TestRun>

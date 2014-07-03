@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6582d139-6ea1-4fe6-aafa-32aefde5b874" name="Danial@DANIAL-ASUS 2014-07-02 14:33:54" runUser="DANIAL-ASUS\Danial" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f4099e50-5f7e-4d66-893f-f079ed6f6c67">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Danial_DANIAL-ASUS 2014-07-02 14_33_54">
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.exe" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-02T14:33:54.7089921-05:00" queuing="2014-07-02T14:33:56.9474847-05:00" start="2014-07-02T14:33:57.1185992-05:00" finish="2014-07-02T14:34:36.9601605-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DANIAL-ASUS" outcome="Error" timestamp="2014-07-02T14:34:36.9581578-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RollTest2d1Mul3d1Add2d1Sub5" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="5d13590b-4d5b-d1a4-86a6-826d43dec9d1">
+      <Execution id="32ddaf41-228b-4930-bf88-c6187d5e29c2" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1Add2d1Sub5" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" executionId="32ddaf41-228b-4930-bf88-c6187d5e29c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32ddaf41-228b-4930-bf88-c6187d5e29c2" testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" testName="RollTest2d1Mul3d1Add2d1Sub5" computerName="DANIAL-ASUS" duration="00:00:39.6784523" startTime="2014-07-02T14:33:57.2817082-05:00" endTime="2014-07-02T14:34:36.9601605-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32ddaf41-228b-4930-bf88-c6187d5e29c2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

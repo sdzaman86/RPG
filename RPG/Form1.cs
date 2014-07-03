@@ -15,8 +15,21 @@ namespace RPG
         public Form1()
         {
             InitializeComponent();
+            Initialize();
+        }
+
+        private void Initialize()
+        {
             var calc = new CharacterCalculator("Human", "Male");
-            int age = calc.BeginningAge( "Fighter");
+            int age = calc.BeginningAge("Fighter");
+            textBox1.Text = age.ToString();
+            textBox2.Text = calc.Height().ToString();
+            textBox3.Text = calc.Weight().ToString();
+        }
+
+        private void rollButton_Click(object sender, EventArgs e)
+        {
+            Initialize();
         }
     }
 }

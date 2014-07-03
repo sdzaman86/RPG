@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c74f887-6f15-4a0e-ad1a-07fdeb6ef329" name="Danial@DANIAL-ASUS 2014-07-02 14:51:08" runUser="DANIAL-ASUS\Danial" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f4099e50-5f7e-4d66-893f-f079ed6f6c67">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Danial_DANIAL-ASUS 2014-07-02 14_51_08">
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.exe" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-02T14:51:08.9945157-05:00" queuing="2014-07-02T14:51:09.0465497-05:00" start="2014-07-02T14:51:09.1145964-05:00" finish="2014-07-02T14:51:15.9891788-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="14" executed="14" passed="12" error="1" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RollTest1d1Mul3" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="594f7b09-c534-fbe8-9d4a-1cba099beed5">
+      <Execution id="9ddca356-17e0-4a3b-a6f1-da863507efb8" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Mul3" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="075434e3-e103-d829-5145-c369a2860765">
+      <Execution id="92efde3d-2ade-4d21-a066-38da46864c18" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1Add2d1Sub5" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="5d13590b-4d5b-d1a4-86a6-826d43dec9d1">
+      <Execution id="84473394-0f10-4217-884d-04e5c9ad9b6f" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1Add2d1Sub5" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="a39910d9-a185-216a-6496-802afb0d62c8">
+      <Execution id="3acd6880-5026-481e-94f4-162f448717f0" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="d5c306b1-ba41-3ceb-a229-57b2f161b761">
+      <Execution id="45d28d43-9fd5-41e1-b968-9ea9a8fa444b" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1" />
+    </UnitTest>
+    <UnitTest name="RollTest2d1Mul3d1Add2d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="5b87ccaf-29a4-4f95-2684-880ee8365d06">
+      <Execution id="188cee30-db51-4c03-a6b4-798c82fef22f" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest2d1Mul3d1Add2d1" />
+    </UnitTest>
+    <UnitTest name="RollTest3d1Sub1d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9">
+      <Execution id="311961a6-03f3-4a7c-9637-bfb55cd6393c" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest3d1Sub1d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Mul3" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="07d35cc0-5f84-71b9-c09d-3470390d331a">
+      <Execution id="ed5b4b8c-07b1-46c1-bf58-be6f3b7fbc4f" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Mul3" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Add1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="c45b81b6-2679-7675-5083-89585994de9d">
+      <Execution id="535bc483-31b0-4183-822c-2c3b813aa5af" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Add1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Sub1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a">
+      <Execution id="e31915db-fc5b-4f28-84f2-706fcaeb5614" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Sub1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add3d1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="df1b4648-1710-c997-2724-7e108ca2e85b">
+      <Execution id="6a51e1e4-4137-42a4-aa67-9c2cb111e62c" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add3d1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Add1Sub1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="749c9363-176f-3ec8-18aa-70765e5a0b66">
+      <Execution id="1c35c8b2-601c-4f7e-acf1-0a0ef272c418" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Add1Sub1" />
+    </UnitTest>
+    <UnitTest name="RollTest1d1Mul0" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1">
+      <Execution id="59338446-2f95-4040-8f81-ee454bb56f20" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1d1Mul0" />
+    </UnitTest>
+    <UnitTest name="RollTest1" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="9f743059-7240-8918-bfad-bd23f3903cee">
+      <Execution id="0ce2b09b-581b-4f99-bc9f-e6ed91256d07" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.DiceParserTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="075434e3-e103-d829-5145-c369a2860765" executionId="92efde3d-2ade-4d21-a066-38da46864c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07d35cc0-5f84-71b9-c09d-3470390d331a" executionId="ed5b4b8c-07b1-46c1-bf58-be6f3b7fbc4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9" executionId="311961a6-03f3-4a7c-9637-bfb55cd6393c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="594f7b09-c534-fbe8-9d4a-1cba099beed5" executionId="9ddca356-17e0-4a3b-a6f1-da863507efb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b87ccaf-29a4-4f95-2684-880ee8365d06" executionId="188cee30-db51-4c03-a6b4-798c82fef22f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" executionId="84473394-0f10-4217-884d-04e5c9ad9b6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="749c9363-176f-3ec8-18aa-70765e5a0b66" executionId="1c35c8b2-601c-4f7e-acf1-0a0ef272c418" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f743059-7240-8918-bfad-bd23f3903cee" executionId="0ce2b09b-581b-4f99-bc9f-e6ed91256d07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a39910d9-a185-216a-6496-802afb0d62c8" executionId="3acd6880-5026-481e-94f4-162f448717f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a" executionId="e31915db-fc5b-4f28-84f2-706fcaeb5614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c45b81b6-2679-7675-5083-89585994de9d" executionId="535bc483-31b0-4183-822c-2c3b813aa5af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5c306b1-ba41-3ceb-a229-57b2f161b761" executionId="45d28d43-9fd5-41e1-b968-9ea9a8fa444b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df1b4648-1710-c997-2724-7e108ca2e85b" executionId="6a51e1e4-4137-42a4-aa67-9c2cb111e62c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1" executionId="59338446-2f95-4040-8f81-ee454bb56f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="92efde3d-2ade-4d21-a066-38da46864c18" testId="075434e3-e103-d829-5145-c369a2860765" testName="RollTest1d1" computerName="DANIAL-ASUS" duration="00:00:00.0618853" startTime="2014-07-02T14:51:09.1205998-05:00" endTime="2014-07-02T14:51:09.5919143-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92efde3d-2ade-4d21-a066-38da46864c18">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed5b4b8c-07b1-46c1-bf58-be6f3b7fbc4f" testId="07d35cc0-5f84-71b9-c09d-3470390d331a" testName="RollTest1d1Add1Mul3" computerName="DANIAL-ASUS" duration="00:00:00.0006896" startTime="2014-07-02T14:51:09.5949167-05:00" endTime="2014-07-02T14:51:09.6279383-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed5b4b8c-07b1-46c1-bf58-be6f3b7fbc4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="311961a6-03f3-4a7c-9637-bfb55cd6393c" testId="3e5b43b0-f69e-6036-78d9-8b8fa5112ba9" testName="RollTest3d1Sub1d1" computerName="DANIAL-ASUS" duration="00:00:00.0018918" startTime="2014-07-02T14:51:09.6329420-05:00" endTime="2014-07-02T14:51:09.6479510-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="311961a6-03f3-4a7c-9637-bfb55cd6393c">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ddca356-17e0-4a3b-a6f1-da863507efb8" testId="594f7b09-c534-fbe8-9d4a-1cba099beed5" testName="RollTest1d1Mul3" computerName="DANIAL-ASUS" duration="00:00:00.0027614" startTime="2014-07-02T14:51:09.6539564-05:00" endTime="2014-07-02T14:51:09.6669647-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ddca356-17e0-4a3b-a6f1-da863507efb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="188cee30-db51-4c03-a6b4-798c82fef22f" testId="5b87ccaf-29a4-4f95-2684-880ee8365d06" testName="RollTest2d1Mul3d1Add2d1" computerName="DANIAL-ASUS" duration="00:00:00.0409360" startTime="2014-07-02T14:51:09.6709674-05:00" endTime="2014-07-02T14:51:09.7240031-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="188cee30-db51-4c03-a6b4-798c82fef22f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1 threw exception: 
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length</Message>
+          <StackTrace>    at System.String.Substring(Int32 startIndex, Int32 length)
+   at RPG.RollDice.DiceParser.ProcessParantheses(String math) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 199
+   at RPG.RollDice.DiceParser.Calculate(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 181
+   at RPG.RollDice.DiceParser.Roll(String diceString) in C:\Users\Danial\Documents\GitHub\RPG\RPG.Dice\DiceParser.cs:line 167
+   at RPGTest.DiceParserTest.RollTest2d1Mul3d1Add2d1() in C:\Users\Danial\Documents\GitHub\RPG\RPGTest\DiceParserTest.cs:line 212
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84473394-0f10-4217-884d-04e5c9ad9b6f" testId="5d13590b-4d5b-d1a4-86a6-826d43dec9d1" testName="RollTest2d1Mul3d1Add2d1Sub5" computerName="DANIAL-ASUS" startTime="2014-07-02T14:51:09.7320077-05:00" endTime="2014-07-02T14:51:15.3197438-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84473394-0f10-4217-884d-04e5c9ad9b6f">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1c35c8b2-601c-4f7e-acf1-0a0ef272c418" testId="749c9363-176f-3ec8-18aa-70765e5a0b66" testName="RollTest1d1Add1Sub1" computerName="DANIAL-ASUS" duration="00:00:00.0336579" startTime="2014-07-02T14:51:15.3367439-05:00" endTime="2014-07-02T14:51:15.7930494-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c35c8b2-601c-4f7e-acf1-0a0ef272c418">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ce2b09b-581b-4f99-bc9f-e6ed91256d07" testId="9f743059-7240-8918-bfad-bd23f3903cee" testName="RollTest1" computerName="DANIAL-ASUS" duration="00:00:00.0004050" startTime="2014-07-02T14:51:15.7960511-05:00" endTime="2014-07-02T14:51:15.8080591-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ce2b09b-581b-4f99-bc9f-e6ed91256d07">
+    </UnitTestResult>
+    <UnitTestResult executionId="3acd6880-5026-481e-94f4-162f448717f0" testId="a39910d9-a185-216a-6496-802afb0d62c8" testName="RollTest2d1Mul3d1" computerName="DANIAL-ASUS" duration="00:00:00.0005336" startTime="2014-07-02T14:51:15.8110607-05:00" endTime="2014-07-02T14:51:15.8200657-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3acd6880-5026-481e-94f4-162f448717f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e31915db-fc5b-4f28-84f2-706fcaeb5614" testId="b10ebec1-2ac3-f1ca-ba26-6e1ad7d7075a" testName="RollTest1d1Sub1" computerName="DANIAL-ASUS" duration="00:00:00.0003482" startTime="2014-07-02T14:51:15.8230681-05:00" endTime="2014-07-02T14:51:15.8330754-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e31915db-fc5b-4f28-84f2-706fcaeb5614">
+    </UnitTestResult>
+    <UnitTestResult executionId="535bc483-31b0-4183-822c-2c3b813aa5af" testId="c45b81b6-2679-7675-5083-89585994de9d" testName="RollTest1d1Add1Add1" computerName="DANIAL-ASUS" duration="00:00:00.0003099" startTime="2014-07-02T14:51:15.8360771-05:00" endTime="2014-07-02T14:51:15.8460838-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="535bc483-31b0-4183-822c-2c3b813aa5af">
+    </UnitTestResult>
+    <UnitTestResult executionId="45d28d43-9fd5-41e1-b968-9ea9a8fa444b" testId="d5c306b1-ba41-3ceb-a229-57b2f161b761" testName="RollTest1d1Add1" computerName="DANIAL-ASUS" duration="00:00:00.0003133" startTime="2014-07-02T14:51:15.8500864-05:00" endTime="2014-07-02T14:51:15.8600931-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45d28d43-9fd5-41e1-b968-9ea9a8fa444b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a51e1e4-4137-42a4-aa67-9c2cb111e62c" testId="df1b4648-1710-c997-2724-7e108ca2e85b" testName="RollTest1d1Add3d1" computerName="DANIAL-ASUS" duration="00:00:00.0003373" startTime="2014-07-02T14:51:15.8630954-05:00" endTime="2014-07-02T14:51:15.8731014-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a51e1e4-4137-42a4-aa67-9c2cb111e62c">
+    </UnitTestResult>
+    <UnitTestResult executionId="59338446-2f95-4040-8f81-ee454bb56f20" testId="f2c43a54-11e4-ccba-49c8-4a3ee377f3a1" testName="RollTest1d1Mul0" computerName="DANIAL-ASUS" duration="00:00:00.0003154" startTime="2014-07-02T14:51:15.8771048-05:00" endTime="2014-07-02T14:51:15.8871108-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59338446-2f95-4040-8f81-ee454bb56f20">
+    </UnitTestResult>
+  </Results>
+</TestRun>

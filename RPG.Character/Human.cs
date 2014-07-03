@@ -19,5 +19,10 @@ namespace RPG.Character
             this.Alignment = alignment;
             this.Age = age;
         }
+
+        protected override SizeEnum Size()
+        {
+            return SizeEnum.Medium;
+        }
     }
 }

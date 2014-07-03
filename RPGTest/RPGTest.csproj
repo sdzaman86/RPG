@@ -51,6 +51,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiceParserTest.cs" />
     <Compile Include="DiceTest.cs" />
     <Compile Include="DieTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
