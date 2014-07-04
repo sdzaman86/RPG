@@ -3,38 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RPG.Equipment.Weapons.Martial
+namespace RPG.Equipment.Weapons.Unarmed
 {
-    public class ShortSword : AbstractWeapon
+    public class Hands : AbstractWeapon
     {
         public override string Damage()
         {
-            return "1d6";
+            return "1d2";
         }
 
         public override WeaponTypeEnum WeaponType()
         {
-            return WeaponTypeEnum.Piercing;
+            return WeaponTypeEnum.Bludgeoning;
         }
 
         public override int Weight()
         {
-            return 2;
-        }
-
-        public int Value()
-        {
-            return 10;
+            return 0;
         }
 
         public string Critical()
         {
             return "*2";
-        }
-
-        public int CriticalMinimumRoll()
-        {
-            return 19;
         }
     }
 }

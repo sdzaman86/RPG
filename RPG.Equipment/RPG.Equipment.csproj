@@ -47,6 +47,7 @@
     <Compile Include="Weapons\AbstractWeapon.cs" />
     <Compile Include="Weapons\IWeapon.cs" />
     <Compile Include="Weapons\Martial\ShortSword.cs" />
+    <Compile Include="Weapons\Unarmed\Hands.cs" />
     <Compile Include="Weapons\WeaponTypeEnum.cs" />
   </ItemGroup>
   <ItemGroup>

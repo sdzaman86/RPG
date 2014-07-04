@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using RPG.Character.Class;
 using RPG.Equipment;
+using RPG.General;
+using RPG.Equipment.Weapons;
+using RPG.Equipment.Weapons.Unarmed;
 
 namespace RPG.Character
 {
@@ -11,6 +14,7 @@ namespace RPG.Character
     {
         #region Properties
         #region Stats&Attrs
+        protected string _Name;
         protected int _Strength = 8;
         protected int _Dexterity = 8;
         protected int _Constitution = 8;
@@ -31,9 +35,9 @@ namespace RPG.Character
         protected IItem _Head;
         protected IItem _Body;
         protected IItem _RightArm;
-        protected IHandCombatItem _RightHand;
+        protected IHandCombatItem _RightHand = new Hands();
         protected IItem _LeftArm;
-        protected IHandCombatItem _LeftHand;
+        protected IHandCombatItem _LeftHand = new Hands();
         protected IItem _Legs;
         protected IItem _Feet;
         #endregion
@@ -48,6 +52,18 @@ namespace RPG.Character
         public virtual int Speed()
         {
             return 30;
+        }
+
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this._Name = value;
+            }
         }
 
         #region Stats
@@ -209,9 +225,11 @@ namespace RPG.Character
             return this._Languages.Any(l => l == language);
         }
 
-        private int IntelligenceModifier()
+        private int AbilityModifier(string attribute)
         {
-            return (int)Math.Floor((this.Intelligence - 10.0) / 2.0);
+            var t = this.GetType();
+            var propinfo = t.GetProperty(attribute);
+            return (int)Math.Floor(((int)propinfo.GetValue(this,null) - 10.0) / 2.0);
         }
 
         public Dictionary<string, int> StatModifierDict
@@ -332,5 +350,16 @@ namespace RPG.Character
             }
         }
         #endregion
+
+        public int Attack()
+        {
+            int result = ((IWeapon)this.RightHand).Attack() + this.AbilityModifier("Strength") + SizeAttackBonus();
+            return result > 0 ? result : 1;
+        }
+
+        private int SizeAttackBonus()
+        {
+            return SizeAttackModifier.SizeModifier(this.Size());
+        }
     }
 }

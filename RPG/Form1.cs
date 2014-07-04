@@ -31,6 +31,7 @@ namespace RPG
             intBox.Text = c.Intelligence.ToString();
             wisBox.Text = c.Wisdom.ToString();
             chaBox.Text = c.Charisma.ToString();
+            attackBox.Text = c.Attack().ToString();
         }
 
         private void rollButton_Click(object sender, EventArgs e)
