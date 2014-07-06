@@ -39,6 +39,7 @@
             this.wisBox = new System.Windows.Forms.TextBox();
             this.chaBox = new System.Windows.Forms.TextBox();
             this.attackBox = new System.Windows.Forms.TextBox();
+            this.rightArmBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -121,11 +122,19 @@
             this.attackBox.Size = new System.Drawing.Size(100, 20);
             this.attackBox.TabIndex = 10;
             // 
+            // rightArmBox
+            // 
+            this.rightArmBox.Location = new System.Drawing.Point(120, 174);
+            this.rightArmBox.Name = "rightArmBox";
+            this.rightArmBox.Size = new System.Drawing.Size(100, 20);
+            this.rightArmBox.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.rightArmBox);
             this.Controls.Add(this.attackBox);
             this.Controls.Add(this.chaBox);
             this.Controls.Add(this.wisBox);
@@ -157,6 +166,7 @@
         private System.Windows.Forms.TextBox wisBox;
         private System.Windows.Forms.TextBox chaBox;
         private System.Windows.Forms.TextBox attackBox;
+        private System.Windows.Forms.TextBox rightArmBox;
 
     }
 }

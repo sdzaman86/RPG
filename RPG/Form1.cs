@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using RPG.Character;
 using RPG.General;
+using RPG.Equipment.Weapons.Martial;
 
 namespace RPG
 {
@@ -21,7 +22,8 @@ namespace RPG
 
         private void Initialize()
         {
-            var c = new CharacterFactory().CreateInstance(RaceEnum.Human, Character.Class.ClassEnum.Fighter, AlignmentEnum.Neutral, GenderEnum.Male);            
+            var c = new CharacterFactory().CreateInstance(RaceEnum.Human, Character.Class.ClassEnum.Fighter, AlignmentEnum.Neutral, GenderEnum.Male);
+            //c.RightHand = new ShortSword();
             textBox1.Text = c.Age.ToString();
             textBox2.Text = c.Height.ToString();
             textBox3.Text = c.Weight.ToString();
@@ -32,6 +34,7 @@ namespace RPG
             wisBox.Text = c.Wisdom.ToString();
             chaBox.Text = c.Charisma.ToString();
             attackBox.Text = c.Attack().ToString();
+            rightArmBox.Text = c.RightHand.ToString();
         }
 
         private void rollButton_Click(object sender, EventArgs e)
