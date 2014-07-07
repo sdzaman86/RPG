@@ -95,5 +95,25 @@ namespace RPG.Skills.NewFolder1
         }
         public override int Bonus = CheckBonus;
         */
+
+        public override int DC()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string Failure()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string Success()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Bonus()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

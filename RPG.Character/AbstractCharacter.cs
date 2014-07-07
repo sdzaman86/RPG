@@ -357,16 +357,31 @@ namespace RPG.Character
         }
         #endregion
 
-        public int AttackRoll()
+        public AttackStruct Attack()
         {
-            int result = ((IWeapon)this.RightHand).AttackRoll() + this.AbilityModifier("Strength") + this.SizeModifier();
+            AttackStruct result = new AttackStruct();
+
+            AttackStruct weaponAS = ((IWeapon)this.RightHand).Attack();
+            result.Roll = weaponAS.Roll + this.AbilityModifier("Strength") + this.SizeModifier();
+            result.Damage = weaponAS.Damage + this.AbilityModifier("Strength");
+
             return result;
         }
 
-        public int Attack()
+        public int Attack(AbstractCharacter c)
         {
-            int result = ((IWeapon)this.RightHand).Attack() + this.AbilityModifier("Strength");
-            return result > 0 ? result : 1;
+            return c.Defend(this.Attack());
+        }
+
+        private int Defend(AttackStruct p)
+        {
+            int result = 0;
+
+            if (p.Roll >= 20 || p.Roll > this.ArmorClass())
+                result += p.Damage > 0 ? p.Damage : 1;
+
+            this.Health -= result;
+            return result;
         }
 
         private int SizeModifier()
@@ -404,5 +419,7 @@ namespace RPG.Character
 
             return ac;
         }
+
+        public int Health { get; set; }
     }
 }

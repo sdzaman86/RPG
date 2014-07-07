@@ -8,28 +8,28 @@ namespace RPG.Skills
 {
     public interface ISkill
     {
-        int SkillRank;
+        int SkillRank();
 
-        string KeyAbility;
+        string KeyAbility();
 
-        bool TrainedOnly;
+        bool TrainedOnly();
 
-        int ArmorCheckPenalty;
+        int ArmorCheckPenalty();
 
-        string Check;
+        string Check();
 
-        int Action;
+        int Action();
 
-        string TryAgain;
+        string TryAgain();
 
-        string Special;
+        string Special();
 
-        string Synergy;
+        string Synergy();
 
-        string Restriction;
+        string Restriction();
 
-        string Untrained;
+        string Untrained();
 
-        string OpposingSkill;
+        string OpposingSkill();
     }
 }

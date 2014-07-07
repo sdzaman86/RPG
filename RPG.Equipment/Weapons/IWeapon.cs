@@ -11,8 +11,7 @@ namespace RPG.Equipment.Weapons
         string Critical();
         int CriticalMinimumRoll();
         string Damage();
-        int AttackRoll();
-        int Attack();
+        AttackStruct Attack();
         WeaponTypeEnum WeaponType();
     }
 }

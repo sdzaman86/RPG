@@ -11,7 +11,6 @@ namespace RPG.Character
         int Speed();
         bool SpeaksLanguage(LanguageEnum language);
         int ArmorClass();
-        int AttackRoll();
-        int Attack();
+        int Attack(AbstractCharacter c);
     }
 }

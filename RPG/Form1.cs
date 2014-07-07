@@ -33,7 +33,7 @@ namespace RPG
             intBox.Text = c.Intelligence.ToString();
             wisBox.Text = c.Wisdom.ToString();
             chaBox.Text = c.Charisma.ToString();
-            attackBox.Text = c.Attack().ToString();
+            attackBox.Text = c.Attack(c).ToString();
             rightArmBox.Text = c.RightHand.ToString();
         }
 

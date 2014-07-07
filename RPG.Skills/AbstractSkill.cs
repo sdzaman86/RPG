@@ -28,5 +28,11 @@ namespace RPG.Skills
         public abstract string Untrained();
 
         public abstract string OpposingSkill();
+
+
+        public string Check()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

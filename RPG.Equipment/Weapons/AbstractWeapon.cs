@@ -14,17 +14,17 @@ namespace RPG.Equipment.Weapons
         public abstract WeaponTypeEnum WeaponType();
         public abstract int Weight();
 
-        public int AttackRoll()
+        public AttackStruct Attack()
         {
-            return DiceParser.Roll("1d20", randomSeed);
-        }
+            AttackStruct result = new AttackStruct();
 
-        public int Attack()
-        {
-            int damage =  DiceParser.Roll(this.Damage(), randomSeed);
-            if (damage>=this.CriticalMinimumRoll())
-                damage = DiceParser.Roll(damage+this.Critical(), randomSeed);
-            return damage;
+            result.Roll = DiceParser.Roll("1d20", randomSeed);
+            result.Damage = DiceParser.Roll(this.Damage(), randomSeed);
+
+            if (result.Roll >= this.CriticalMinimumRoll())
+                result.Damage = DiceParser.Roll(result.Damage + this.Critical(), randomSeed);
+
+            return result;
         }
 
         public virtual int Value()

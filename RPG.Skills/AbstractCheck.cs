@@ -8,12 +8,12 @@ namespace RPG.Skills
 {
     public abstract class AbstractCheck
     {
-        public abstract int DC;
+        public abstract int DC();
 
-        public abstract string Failure;
+        public abstract string Failure();
 
-        public abstract string Success;
+        public abstract string Success();
 
-        public abstract int Bonus;
+        public abstract int Bonus();
     }
 }
