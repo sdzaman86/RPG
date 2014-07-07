@@ -14,9 +14,17 @@ namespace RPG.Equipment.Weapons
         public abstract WeaponTypeEnum WeaponType();
         public abstract int Weight();
 
+        public int AttackRoll()
+        {
+            return DiceParser.Roll("1d20", randomSeed);
+        }
+
         public int Attack()
         {
-            return DiceParser.Roll(this.Damage(), randomSeed);
+            int damage =  DiceParser.Roll(this.Damage(), randomSeed);
+            if (damage>=this.CriticalMinimumRoll())
+                damage = DiceParser.Roll(damage+this.Critical(), randomSeed);
+            return damage;
         }
 
         public virtual int Value()

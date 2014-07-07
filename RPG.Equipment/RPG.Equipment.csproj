@@ -40,7 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armor\Body\IBody.cs" />
+    <Compile Include="Armor\Body\Shirt.cs" />
+    <Compile Include="Armor\Gloves\Arm.cs" />
+    <Compile Include="Armor\Gloves\IGloves.cs" />
+    <Compile Include="Armor\Helmet\Head.cs" />
+    <Compile Include="Armor\Helmet\IHelmet.cs" />
+    <Compile Include="Armor\IArmorClass.cs" />
+    <Compile Include="Armor\Pants\IPants.cs" />
+    <Compile Include="Armor\Pants\Pant.cs" />
     <Compile Include="Armor\Shield\IShield.cs" />
+    <Compile Include="Armor\Shoes\Feet.cs" />
+    <Compile Include="Armor\Shoes\IShoes.cs" />
     <Compile Include="IHandCombatItem.cs" />
     <Compile Include="IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,13 +67,7 @@
       <Name>RPG.RollDice</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Armor\Body\" />
-    <Folder Include="Armor\Gloves\" />
-    <Folder Include="Armor\Helmet\" />
-    <Folder Include="Armor\Pants\" />
-    <Folder Include="Armor\Shoes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

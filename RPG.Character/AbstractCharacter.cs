@@ -7,6 +7,12 @@ using RPG.Equipment;
 using RPG.General;
 using RPG.Equipment.Weapons;
 using RPG.Equipment.Weapons.Unarmed;
+using RPG.Equipment.Armor.Body;
+using RPG.Equipment.Armor.Gloves;
+using RPG.Equipment.Armor.Helmet;
+using RPG.Equipment.Armor.Pants;
+using RPG.Equipment.Armor.Shield;
+using RPG.Equipment.Armor.Shoes;
 
 namespace RPG.Character
 {
@@ -32,14 +38,14 @@ namespace RPG.Character
         protected GenderEnum _Gender;
         #endregion
         #region Iventory
-        protected IItem _Head;
-        protected IItem _Body;
-        protected IItem _RightArm;
+        protected IHelmet _Head = new Head();
+        protected IBody _Body = new Shirt();
+        protected IGloves _RightArm = new Arm();
         protected IHandCombatItem _RightHand = new Hands();
-        protected IItem _LeftArm;
+        protected IGloves _LeftArm = new Arm();
         protected IHandCombatItem _LeftHand = new Hands();
-        protected IItem _Legs;
-        protected IItem _Feet;
+        protected IPants _Legs = new Pant();
+        protected IShoes _Feet = new Feet();
         #endregion
         #endregion
 
@@ -254,7 +260,7 @@ namespace RPG.Character
         #endregion
 
         #region Inventory
-        public IItem Head
+        public IHelmet Head
         {
             get
             {
@@ -266,7 +272,7 @@ namespace RPG.Character
             }
         }
 
-        public IItem Body
+        public IBody Body
         {
             get
             {
@@ -278,7 +284,7 @@ namespace RPG.Character
             }
         }
 
-        public IItem RightArm
+        public IGloves RightArm
         {
             get
             {
@@ -302,7 +308,7 @@ namespace RPG.Character
             }
         }
 
-        public IItem LeftArm
+        public IGloves LeftArm
         {
             get
             {
@@ -326,7 +332,7 @@ namespace RPG.Character
             }
         }
 
-        public IItem Legs
+        public IPants Legs
         {
             get
             {
@@ -338,7 +344,7 @@ namespace RPG.Character
             }
         }
 
-        public IItem Feet
+        public IShoes Feet
         {
             get
             {
@@ -351,15 +357,52 @@ namespace RPG.Character
         }
         #endregion
 
+        public int AttackRoll()
+        {
+            int result = ((IWeapon)this.RightHand).AttackRoll() + this.AbilityModifier("Strength") + this.SizeModifier();
+            return result;
+        }
+
         public int Attack()
         {
-            int result = ((IWeapon)this.RightHand).Attack() + this.AbilityModifier("Strength") + SizeAttackBonus();
+            int result = ((IWeapon)this.RightHand).Attack() + this.AbilityModifier("Strength");
             return result > 0 ? result : 1;
         }
 
-        private int SizeAttackBonus()
+        private int SizeModifier()
         {
             return SizeAttackModifier.SizeModifier(this.Size());
+        }
+
+        public int ArmorClass()
+        {
+            return 10 + this.ArmorBonus() + this.ShieldBonus() + this.AbilityModifier("Dexterity") + this.SizeModifier();
+        }
+
+        private int ShieldBonus()
+        {
+            int ac = 0;
+
+            if (this.RightHand.GetType().GetInterface(typeof(IShield).ToString()) != null)
+                ac += ((IShield)this.RightHand).ArmorClass();
+            if (this.LeftHand.GetType().GetInterface(typeof(IShield).ToString()) != null)
+                ac += ((IShield)this.LeftHand).ArmorClass();
+
+            return ac;
+        }
+
+        private int ArmorBonus()
+        {
+            int ac = 0;
+
+            ac += this.Head.ArmorClass();
+            ac += this.Body.ArmorClass();
+            ac += this.RightArm.ArmorClass();
+            ac += this.LeftArm.ArmorClass();
+            ac += this.Legs.ArmorClass();
+            ac += this.Feet.ArmorClass();
+
+            return ac;
         }
     }
 }

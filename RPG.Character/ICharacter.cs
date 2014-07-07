@@ -10,5 +10,8 @@ namespace RPG.Character
         SizeEnum Size();
         int Speed();
         bool SpeaksLanguage(LanguageEnum language);
+        int ArmorClass();
+        int AttackRoll();
+        int Attack();
     }
 }

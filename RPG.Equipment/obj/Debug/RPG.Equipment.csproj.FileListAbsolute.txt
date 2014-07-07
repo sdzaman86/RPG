@@ -11,4 +11,3 @@ C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.Equipment.dll
 C:\Users\DT\Documents\GitHub\RPG\Assemblies\RPG.Equipment.pdb
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Equipment.dll
 C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Equipment.pdb
-C:\Users\Danial\Documents\GitHub\RPG\RPG.Equipment\obj\Debug\RPG.Equipment.csprojResolveAssemblyReference.cache
