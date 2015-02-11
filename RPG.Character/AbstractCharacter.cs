@@ -27,6 +27,7 @@ namespace RPG.Character
         protected int _Intelligence = 8;
         protected int _Wisdom = 8;
         protected int _Charisma = 8;
+        protected int _Health = 10;
         protected RaceEnum _Race;
         protected ClassEnum _Class;
         protected AlignmentEnum _Alignment;
@@ -50,9 +51,9 @@ namespace RPG.Character
         #endregion
 
         #region Attributes
-        public virtual SizeEnum Size()
+        public virtual StatEnum Size()
         {
-            return SizeEnum.Medium;
+            return StatEnum.Medium;
         }
 
         public virtual int Speed()
@@ -257,6 +258,19 @@ namespace RPG.Character
                 this._Gender = value;
             }
         }
+
+        public int Health
+        {
+            get
+            {
+                return this._Health;
+            }
+            set
+            {
+                this._Health = value;
+            }
+        }
+
         #endregion
 
         #region Inventory
@@ -357,7 +371,7 @@ namespace RPG.Character
         }
         #endregion
 
-        public AttackStruct Attack()
+        private AttackStruct Attack()
         {
             AttackStruct result = new AttackStruct();
 
@@ -418,8 +432,6 @@ namespace RPG.Character
             ac += this.Feet.ArmorClass();
 
             return ac;
-        }
-
-        public int Health { get; set; }
+        }        
     }
 }

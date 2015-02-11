@@ -51,6 +51,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttackTest.cs" />
     <Compile Include="DiceParserTest.cs" />
     <Compile Include="DiceTest.cs" />
     <Compile Include="DieTest.cs" />
@@ -64,6 +65,10 @@
     <ProjectReference Include="..\RPG.Dice\RPG.RollDice.csproj">
       <Project>{3F33FCD7-309A-4836-8CDE-31C42613E8F6}</Project>
       <Name>RPG.RollDice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RPG.Equipment\RPG.Equipment.csproj">
+      <Project>{225199C6-32C2-4F32-A365-FA73C5511D5C}</Project>
+      <Name>RPG.Equipment</Name>
     </ProjectReference>
     <ProjectReference Include="..\RPG.General\RPG.General.csproj">
       <Project>{442538A4-C049-4936-8A83-F85D0A702963}</Project>

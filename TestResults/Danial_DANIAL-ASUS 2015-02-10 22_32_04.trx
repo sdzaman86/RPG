@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4cb0718c-d25d-4e6c-8fc3-1447bd65d383" name="Danial@DANIAL-ASUS 2015-02-10 22:32:04" runUser="DANIAL-ASUS\Danial" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f4099e50-5f7e-4d66-893f-f079ed6f6c67">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Danial_DANIAL-ASUS 2015-02-10 22_32_04">
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.RollDice.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.exe" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Character.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.Equipment.dll" />
+      <DeploymentItem filename="C:\Users\Danial\Documents\GitHub\RPG\Assemblies\RPG.General.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-10T22:32:04.8586773-06:00" queuing="2015-02-10T22:32:07.3113777-06:00" start="2015-02-10T22:32:07.5295248-06:00" finish="2015-02-10T22:32:20.8664336-06:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DANIAL-ASUS" outcome="Error" timestamp="2015-02-10T22:32:20.8644316-06:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="HumanAndAngel" storage="c:\users\danial\documents\github\rpg\assemblies\rpgtest.dll" id="3dd72a2f-e12a-c769-586d-56b7e66a29e4">
+      <Execution id="0dc7e09f-44d3-4d8b-9add-ab95c264630b" />
+      <TestMethod codeBase="C:/Users/Danial/Documents/GitHub/RPG/Assemblies/RPGTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RPGTest.AttackTest, RPGTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HumanAndAngel" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3dd72a2f-e12a-c769-586d-56b7e66a29e4" executionId="0dc7e09f-44d3-4d8b-9add-ab95c264630b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0dc7e09f-44d3-4d8b-9add-ab95c264630b" testId="3dd72a2f-e12a-c769-586d-56b7e66a29e4" testName="HumanAndAngel" computerName="DANIAL-ASUS" duration="00:00:13.1567892" startTime="2015-02-10T22:32:07.7096444-06:00" endTime="2015-02-10T22:32:20.8664336-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc7e09f-44d3-4d8b-9add-ab95c264630b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

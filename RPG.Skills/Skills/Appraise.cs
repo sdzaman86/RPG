@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RPG.General;
 
 namespace RPG.Skills.Skills
 {
@@ -13,9 +14,9 @@ namespace RPG.Skills.Skills
             return 1;
         }
 
-        public override string KeyAbility()
+        public override AttributeEnum KeyAbility()
         {
-            return "INT";
+            return AttributeEnum.Intelligence;
         }
 
         public override bool TrainedOnly()
@@ -32,6 +33,7 @@ namespace RPG.Skills.Skills
         {
             return 10;
         }
+
         public override string TryAgain()
         {
             return "No";

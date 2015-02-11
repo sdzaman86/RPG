@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using RPG.General;
 
 namespace RPG.Skills
 {
@@ -9,7 +10,7 @@ namespace RPG.Skills
     {
         public abstract int SkillRank();
 
-        public abstract string KeyAbility();
+        public abstract AttributeEnum KeyAbility();
 
         public abstract bool TrainedOnly();
 

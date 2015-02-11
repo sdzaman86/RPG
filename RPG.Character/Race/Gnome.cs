@@ -15,9 +15,9 @@ namespace RPG.Character.Race
             this._StatModifierDict = new Dictionary<string, int>() { { "Constitution", 2 }, { "Strength", -2 } };
         }
 
-        public SizeEnum Size()
+        public StatEnum Size()
         {
-            return SizeEnum.Small;
+            return StatEnum.Small;
         }
 
         public int Speed()

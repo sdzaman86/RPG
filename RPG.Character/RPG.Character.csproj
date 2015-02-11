@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AbstractCharacter.cs" />
     <Compile Include="GenderEnum.cs" />
+    <Compile Include="Monster\Angel.cs" />
     <Compile Include="Race\Halfling.cs" />
     <Compile Include="CharacterCalculator.cs" />
     <Compile Include="Age\AgeMilestoneConst.cs" />
@@ -60,7 +61,7 @@
     <Compile Include="LanguageEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Race\RaceEnum.cs" />
-    <Compile Include="SizeEnum.cs" />
+    <Compile Include="StatEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Config\Config.csproj">
@@ -80,6 +81,7 @@
       <Name>RPG.General</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

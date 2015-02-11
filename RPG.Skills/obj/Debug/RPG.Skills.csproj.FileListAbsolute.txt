@@ -10,3 +10,5 @@ C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\bin\Debug\normnfkc.nlp
 C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\bin\Debug\normnfkd.nlp
 C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\obj\Debug\RPG.Skills.dll
 C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\obj\Debug\RPG.Skills.pdb
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\bin\Debug\RPG.General.dll
+C:\Users\Danial\Documents\GitHub\RPG\RPG.Skills\bin\Debug\RPG.General.pdb
